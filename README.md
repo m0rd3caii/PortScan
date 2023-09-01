@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ```py
 python3 portScan.py -i <IP>
 ```
-```sh
+```perl
     [+] Host: 192.x.x.x
 [◒] Scanning: 
     Discovering port 65535
