@@ -12,8 +12,7 @@ pip install -r requirements.txt
 python3 portScan.py -i <IP>
 ```
 ```sh
-  ❯ python3 portScan.py -i 192.168.1.25
-    [+] Host: 192.168.1.25
+    [+] Host: 192.x.x.x
 [◒] Scanning: 
     Discovering port 65535
     [+] Port 21 : OPEN
