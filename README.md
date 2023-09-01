@@ -9,7 +9,7 @@ pip install -r requirements.txt
 ```
 ### Step 2
 ```py
-python3 portScan.py -i <IP>
+python3 portScan.py -i 192.x.x.x
 ```
 ```ruby
     [+] Host: 192.x.x.x
