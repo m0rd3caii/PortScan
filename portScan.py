@@ -22,13 +22,13 @@ def ip_validator(ip_addr):
      return args
 
 def scan_ports(ip_scan):
-     t_IP = socket.gethostbyname(ip_scan)
+     t_IP = socket.gethostbyname(ip_scan) # Obtener la dirección IP correspondiente al nombre del host
      print(f"\t[+] Host: {t_IP}")
-     p = log.progress("Scanning")
+     p = log.progress("Scanning") # Mostrar el progreso
  
      for i in range(1, 65536):
-         p.status(f"\nDiscovering port {i}")
-         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+         p.status(f"\nDiscovering port {i}") # Actualizar el estado de progreso
+         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM) # AF_INET = IPv4, SOCK_STREAM = protocolo TCP
          result = sock.connect_ex((t_IP, i))
          
          if result == 0:
