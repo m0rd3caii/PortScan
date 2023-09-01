@@ -1,5 +1,5 @@
 # PortScan
-How to use:
+How to use it:
 ### Step 1
 
 <h4>If you do not have the requirements installed, do the following:</h4>
